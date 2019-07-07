@@ -41,7 +41,7 @@ JavaScriptモジュールはこのままだと古いブラウザ（例：Interne
 #### webpackでJavaScriptモジュールを扱う
 webpackを使うと、JavaScriptモジュールをブラウザで扱える形に変換できる。index.jsのようにメインとなる処理を行うJavaScriptファイルを「エントリーポイント」と呼び、 このエントリーポイントをビルドすることで、関連するファイル群を統合する。
 
-以下のビルドコマンドを、index.js と sub.js を含む src ディレクトリのある階層で実行する。$npm i -D webpack webpack-cli してない場合、以下のビルド中にやってくれる。scr のなかに画像リソースとかも入れるのだろうか・・・？
+以下のビルドコマンドを、index.js と sub.js を含む src ディレクトリのある階層で実行する。$npm i -D webpack webpack-cli してない場合、以下のビルド中にやってくれる。html ファイルも入れたい場合は src と同じ階層。
 ```sh
 npx webpack
 ```
@@ -170,4 +170,203 @@ webpackはこうした性質上、タスクランナーであるGulpやGruntの�
 
 webpack4 は、これらのバンドラーの中でビルド時間及び容量の面で優れる。トレンドもwebpack。
 
-# 公式ドキュメント
+# 公式チュートリアル
+## はじめに
+#### セットアップ
+npm init -y して、 npm i -D webpack webpack-cli する。
+index.html と　src/index.js 作る。内容は以下。
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+  </head>
+  <body>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
+```
+```js
+function component() {
+  const element = document.createElement('div');
+
+  // Lodash, currently included via a script, is required for this line to work
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+  return element;
+}
+
+document.body.appendChild(component());
+```
+
+また、事故的に公開してしまうことを防ぐために、package.json をいじって、private を追加して index.js のエントリーポイントを消す。
+
+```json
+ {
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "description": "",
++   "private": true,
+-   "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^4.20.2",
+      "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {}
+  }
+```
+
+#### Bundle を形成する
+形成する前に、我々がいじるソースコード (src) と、minimized and optimized されたディストリビューションコード (dist) を分ける。今回は、index.html を dist に移動させる。
+
+今回作成する index.js は lodash ライブラリに依存する予定のため、以下のコードでローカルにライブラリを落とす。このように production bundle に統合すべきパッケージを落とす時には npm install --save を使い、linter, testing libraries などの開発用パッケージの時は npm install --save-dev を使う。
+
+```bash
+npm install --save lodash
+```
+
+落としたら、index.js 内で import する。こうすることで、依存関係を明示でき、webpack がバンドルできるようにできる。_ としているのは、no global scope pollution　にするためらしい。よくわからん。
+
+```js
++ import _ from 'lodash';
++
+  function component() {
+    const element = document.createElement('div');
+
+-   // Lodash, currently included via a script, is required for this line to work
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+    return element;
+  }
+
+  document.body.appendChild(component());
+```
+
+これで、元のコードでは <script> によって有効化していたパッケージを、<script> なしで使えるようになった。のでindex.html の <script~lodash~ の部分を消して、出力される bundle ファイルを使用するために、body の index.js を main.js にする。
+
+```html
+ <!doctype html>
+  <html>
+   <head>
+     <title>Getting Started</title>
+-    <script src="https://unpkg.com/lodash@4.16.6"></script>
+   </head>
+   <body>
+-    <script src="./src/index.js"></script>
++    <script src="main.js"></script>
+   </body>
+  </html>
+```
+
+これで npx webpack できる。
+
+#### Modules
+import と export は ES2015により実現されるが、古いブラウザでは動かない。そこで、Webpack は import と export を含む様々なモジュールを transpile して、古いブラウザでも動くように意してくれる。
+
+import と export 以外は、webpack はこの先 alter しないので、 webpack loader system から babel などを使用することが推奨される。
+
+#### webpack.config.js
+これ以外の名前で bundle 時の config に使いたい時は、npx webpack --config ~.js とする必要がある。
+
+## Asset Management
+Webpack は、エントリーポイントの コードを起点として dependency graph を想定し、src のファイルを dist へ動的にバンドルする。ので、例えば使われていないモジュールを一緒にバンドルするなどのリスクをなくせる。以下、js 以外のファイル形式をバンドルする方法を試す。
+
+#### Setup
+index.html と webpack.config.jsを少しいじっておく。リファクタ的。
+```html
+  <!doctype html>
+  <html>
+    <head>
+-    <title>Getting Started</title>
++    <title>Asset Management</title>
+    </head>
+    <body>
+-     <script src="main.js"></script>
++     <script src="bundle.js"></script>
+    </body>
+  </html>
+```
+```js
+  const path = require('path');
+
+  module.exports = {
+    entry: './src/index.js',
+    output: {
+-     filename: 'main.js',
++     filename: 'bundle.js',
+      path: path.resolve(__dirname, 'dist')
+    }
+  };
+```
+
+#### Loading CSS
+CSS を js 内で import するには、まず module configlation に style-loader と css-loader をインストールする。これは開発用のインストールであるから、 --save ではなく -D を使う。
+
+```bash
+npm i --D style-loader css-loader
+```
+そして、webpack.config.js を以下のようにする。
+```js
+  const path = require('path');
+
+  module.exports = {
+    entry: './src/index.js',
+    output: {
+      filename: 'bundle.js',
+      path: path.resolve(__dirname, 'dist')
+    },
++   module: {
++     rules: [
++       {
++         test: /\.css$/,
++         use: [
++           'style-loader',
++           'css-loader'
++         ]
++       }
++     ]
++   }
+  };
+```
+これで、css を js 上で import できるようになった。この二つの loader は、html の <head> に <style> を挿入してくれる。
+
+style.css を src に作成して、ビルドしてみよう。
+
+```css
+.hello {
+  color: red;
+}
+```
+```js
+  import _ from 'lodash';
++ import './style.css';
+
+  function component() {
+    const element = document.createElement('div');
+
+    // Lodash, now imported by this script
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
++   element.classList.add('hello');
+
+    return element;
+  }
+
+  document.body.appendChild(component());
+```
+動かなかった。loader が適切じゃないらしい。
+
+#### Loading Image
+ローダーをインストールする。
+```bash
+npm install --save-dev file-loader
+```
+他のファイルもチュートリアルに従って変更する。
+css が読み込めないって言われる。
