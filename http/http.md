@@ -594,6 +594,7 @@ urn:ietf:rfc:7230
 
 #### Uniform Resource Identifiers (URI) の構文
 頭には http:// などのプロトコル指定がくる。ウェブでは通常 HTTP か HTTPS のどちらかが使用されるが、ブラウザは mailto: や ftp: といった他のプロトコルにも対応している。主なスキームは以下の通り。
+
 |スキーム|説明|
 |---|---|
 |data|Data URI|
