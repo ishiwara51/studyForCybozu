@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8dc9691-3d71-407e-b8eb-28d4ee66dace" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog2/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding>
+                <element signature="e#40#66#0#PHP" expanded="true" />
+                <element signature="e#547#569#0#PHP" expanded="true" />
+                <element signature="e#954#975#0#PHP" expanded="true" />
+                <element signature="e#1742#1754#1#PHP" expanded="true" />
+                <element signature="e#1797#1817#0#PHP" expanded="true" />
+                <element signature="e#2843#2855#1#PHP" expanded="true" />
+                <element signature="e#2930#2950#0#PHP" expanded="true" />
+                <element signature="e#2498#2510#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/blog/new.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="e#58#72#0#Twig" expanded="true" />
+                <element signature="e#98#137#0#Twig" expanded="true" />
+                <element signature="e#293#303#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+              <folding>
+                <element signature="e#1455#1461#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/blog/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#127#135#0#Twig" expanded="true" />
+                <element signature="e#508#524#0#Twig" expanded="true" />
+                <element signature="e#758#767#0#Twig" expanded="true" />
+                <element signature="e#781#799#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/blog/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="57" />
+              <folding>
+                <element signature="e#214#224#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>continue</find>
+      <find>continue;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>break;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/blog/src/AppBundle/Controller</dir>
+      <dir>$PROJECT_DIR$/symfony_demo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Controller/LuckyController.php" />
+        <option value="$PROJECT_DIR$/my_project_name/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/my_project_name/app/Resources/views/lucky/number.html.twig" />
+        <option value="$PROJECT_DIR$/my_project_name/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/my_project_name/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Controller/TestController.php" />
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Controller/GenusController.php" />
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Entity/Task.php" />
+        <option value="$PROJECT_DIR$/blog/app/config/validadtion.yml" />
+        <option value="$PROJECT_DIR$/blog/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/blog/app/config/balidation.yml" />
+        <option value="$PROJECT_DIR$/blog/app/config/validation.yml" />
+        <option value="$PROJECT_DIR$/blog/app/Resources/views/default/new.html.twig" />
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Form/TaskType.php" />
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Entity/Product.php" />
+        <option value="$PROJECT_DIR$/blog/app/config/Product.orm.yml" />
+        <option value="$PROJECT_DIR$/blog/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/form/src/AppBundle/Entity/Task.php" />
+        <option value="$PROJECT_DIR$/form/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/form/app/config/vaalidation.yml" />
+        <option value="$PROJECT_DIR$/form/app/Resources/views/default/new.html.twig" />
+        <option value="$PROJECT_DIR$/form/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/blog/app/Resources/views/blog/show.html.twig" />
+        <option value="$PROJECT_DIR$/blog/app/Resources/views/blog/index.html.twig" />
+        <option value="$PROJECT_DIR$/blog/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/blog2/app/Resources/views/blog/show.html.twig" />
+        <option value="$PROJECT_DIR$/blog2/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/blog2/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/blog2/app/Resources/views/blog/new.html.twig" />
+        <option value="$PROJECT_DIR$/blog2/app/Resources/views/blog/index.html.twig" />
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/blog/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/blog/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/blog/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/blog/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/blog/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/blog/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/blog/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/blog/vendor/composer" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/blog/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/blog/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/blog/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/blog/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/blog/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/blog/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/blog/vendor/zendframework/zend-eventmanager" />
+    </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/symfony.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/php.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="62" />
+    <option name="y" value="63" />
+    <option name="width" value="1139" />
+    <option name="height" value="737" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.263834" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8dc9691-3d71-407e-b8eb-28d4ee66dace" name="Default Changelist" comment="" />
+      <created>1564103023276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564103023276</updated>
+      <workItem from="1564103026230" duration="7584000" />
+      <workItem from="1564232914221" duration="525000" />
+      <workItem from="1564233572936" duration="2844000" />
+      <workItem from="1564241025828" duration="10935000" />
+      <workItem from="1564708809229" duration="7048000" />
+      <workItem from="1564719563379" duration="5263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34199000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="62" y="63" width="1139" height="737" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18687329" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32713178" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2006079" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32713178" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/blog/src/AppBundle/Entity/Task.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/LuckyContoller.php" />
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/LuckyController.php" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/app/config/routing_dev.yml" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/app/Resources/views/lucky/number.html.twig" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/app/Resources/views/default/index.html.twig" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/app/Resources/views/base.html.twig" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/app/config/routing.yml" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/app/config/config.yml" />
+    <entry file="file://$PROJECT_DIR$/my_project_name/src/AppBundle/Controller/DefaultController.php" />
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/TestController.php" />
+    <entry file="file://$PROJECT_DIR$/blog/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/GenusController.php" />
+    <entry file="file://$PROJECT_DIR$/symfony_demo/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony_demo/src/AppBundle/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony_demo/src/AppBundle/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/config/validadtion.yml" />
+    <entry file="file://$PROJECT_DIR$/blog/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/config/balidation.yml" />
+    <entry file="file://$PROJECT_DIR$/blog/app/config/validation.yml" />
+    <entry file="file://$PROJECT_DIR$/blog/app/Resources/views/default/new.html.twig" />
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Entity/Product.php" />
+    <entry file="file://$PROJECT_DIR$/blog/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/config/Product.orm.yml" />
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Form/TaskType.php" />
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Entity/Task.php" />
+    <entry file="file://$PROJECT_DIR$/symfony_demo/src/AppBundle/Controller/Admin/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/bin/symfony_requirements">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/app/Resources/views/default/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#98#124#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/app/config/vaalidation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/src/AppBundle/Entity/Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#48#74#0#PHP" expanded="true" />
+            <element signature="e#620#642#0#PHP" expanded="true" />
+            <element signature="e#1083#1104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#1455#1461#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Resources/views/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#441#457#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Resources/views/blog/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="74" />
+          <folding>
+            <element signature="e#214#224#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/blog/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="57" />
+          <folding>
+            <element signature="e#214#224#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#1455#1461#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/blog/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#58#72#0#Twig" expanded="true" />
+            <element signature="e#98#137#0#Twig" expanded="true" />
+            <element signature="e#293#303#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/app/Resources/views/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#127#135#0#Twig" expanded="true" />
+            <element signature="e#508#524#0#Twig" expanded="true" />
+            <element signature="e#758#767#0#Twig" expanded="true" />
+            <element signature="e#781#799#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="e#40#66#0#PHP" expanded="true" />
+            <element signature="e#547#569#0#PHP" expanded="true" />
+            <element signature="e#954#975#0#PHP" expanded="true" />
+            <element signature="e#1742#1754#1#PHP" expanded="true" />
+            <element signature="e#1797#1817#0#PHP" expanded="true" />
+            <element signature="e#2843#2855#1#PHP" expanded="true" />
+            <element signature="e#2930#2950#0#PHP" expanded="true" />
+            <element signature="e#2498#2510#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
