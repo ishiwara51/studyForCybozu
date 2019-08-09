@@ -10,18 +10,31 @@
     <title>{% block title %}{{ block('page_title') }} - Symfony Blog{% endblock title %}</title>
 </head>
 <body>
-<header class="navbar navbar-dark bg-primary">
+    <header class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="navbar-brand">Symfony Blog</h1>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h1 class="navbar-brand">Symfony Blog</h1>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h2>{% block page_title %}{% endblock page_title %}</h2>
+                    </div>
+                    <div class="col-xs-4">
+                        {% block content %}{% endblock content %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                asdfasdf<br>asdfasdfasdfasdfasdf<br>a<br><br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>サイドバーとか
+            </div>
+        </div>
     </div>
-</header>
-<div class="container">
-    <div class="row">
-        <h2>{% block page_title %}{% endblock page_title %}</h2>
-    </div>
-
-    {% block content %}{% endblock content %}
-
-</div>
 </body>
 </html>
